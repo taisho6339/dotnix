@@ -16,5 +16,6 @@
     /homebrew.nix
     /packages.nix
     /programs/mise.nix
+    /programs/git.nix
   ];
 }
