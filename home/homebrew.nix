@@ -7,7 +7,7 @@ let
     "homebrew/services"
   ];
 
-  brews = [ "mise" ];
+  brews = [ "mise" "cocoapods" ];
 
   casks = [
     "appcleaner"
@@ -18,7 +18,14 @@ let
     "zoom"
     "google-chrome"
     "bettertouchtool"
-    "xcodes"
+    "iterm2"
+    "goland"
+    "rustrover"
+    "awa"
+    "google-drive"
+    "notion"
+    "google-japanese-ime"
+    "sourcetree"
   ];
 in with lib; {
   home.sessionPath = [ "/opt/homebrew/bin" ];
