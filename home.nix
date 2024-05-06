@@ -17,5 +17,6 @@
     /packages.nix
     /programs/mise.nix
     /programs/git.nix
+    /programs/zsh.nix
   ];
 }
