@@ -50,17 +50,10 @@ experimental-features = nix-command flakes auto-allocate-uids
 nix run . -- switch
 ```
 
-## Apply new config
-
-```sh
-home-manager switch
-```
-
 ## Update packages
 
 ```sh
 nix flake update
-home-manager switch
 ```
 
 ```sh
