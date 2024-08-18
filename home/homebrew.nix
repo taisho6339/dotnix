@@ -7,7 +7,7 @@ let
     "homebrew/services"
   ];
 
-  brews = [ "mise" "cocoapods" ];
+  brews = [ "mise" "cocoapods" "pinentry-mac" ];
 
   casks = [
     "appcleaner"

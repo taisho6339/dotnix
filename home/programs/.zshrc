@@ -26,3 +26,14 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 eval "$(mise activate zsh)"
+# Nix path initialization
+if [ -e /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh ]; then
+  . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+elif [ -e /nix/var/nix/profiles/default/etc/profile.d/nix.sh ]; then
+  . /nix/var/nix/profiles/default/etc/profile.d/nix.sh
+fi
+
+# Home Manager environment variables
+if [ -e "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh" ]; then
+  . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
+fi
