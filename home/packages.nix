@@ -11,6 +11,10 @@
     # Tools
     fzf
     jq
+    protobuf
+    cmake
+    cargo-nextest
+    gnupg
   ];
 
   programs = {
