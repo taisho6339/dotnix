@@ -15,6 +15,7 @@
     cmake
     cargo-nextest
     gnupg
+    terraform
   ];
 
   programs = {
