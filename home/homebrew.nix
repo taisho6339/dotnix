@@ -19,8 +19,6 @@ let
     "google-chrome"
     "bettertouchtool"
     "iterm2"
-    "goland"
-    "rustrover"
     "awa"
     "google-drive"
     "notion"

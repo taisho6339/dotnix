@@ -18,5 +18,6 @@
     /programs/mise.nix
     /programs/git.nix
     /programs/zsh.nix
+    /programs/awscli.nix
   ];
 }
